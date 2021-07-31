@@ -1,0 +1,23 @@
+---
+-api-id: P:Windows.Media.SpeechRecognition.SpeechRecognizerUIOptions.IsReadBackEnabled
+-api-type: winrt property
+---
+
+<!-- Property syntax
+public bool IsReadBackEnabled { get;  set; }
+-->
+
+# Windows.Media.SpeechRecognition.SpeechRecognizerUIOptions.IsReadBackEnabled
+
+## -description
+Gets or sets whether the recognized text is spoken back to the user on the **Heard you say** screen.
+
+## -property-value
+True if the recognized text is spoken back to the user. Otherwise, false. The default is true.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
