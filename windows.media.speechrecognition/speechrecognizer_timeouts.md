@@ -1,0 +1,23 @@
+---
+-api-id: P:Windows.Media.SpeechRecognition.SpeechRecognizer.Timeouts
+-api-type: winrt property
+---
+
+<!-- Property syntax
+public Windows.Media.SpeechRecognition.SpeechRecognizerTimeouts Timeouts { get; }
+-->
+
+# Windows.Media.SpeechRecognition.SpeechRecognizer.Timeouts
+
+## -description
+Gets how long a speech recognizer ignores silence or unrecognizable sounds (babble) and continues listening for speech input.
+
+## -property-value
+The timeout settings.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[Set speech recognition timeouts](https://docs.microsoft.com/windows/uwp/input-and-devices/set-speech-recognition-timeouts), [Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
