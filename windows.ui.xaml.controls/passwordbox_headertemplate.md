@@ -1,0 +1,41 @@
+---
+-api-id: P:Windows.UI.Xaml.Controls.PasswordBox.HeaderTemplate
+-api-type: winrt property
+---
+
+<!-- Property syntax
+public Windows.UI.Xaml.DataTemplate HeaderTemplate { get;  set; }
+-->
+
+# Windows.UI.Xaml.Controls.PasswordBox.HeaderTemplate
+
+## -description
+Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to display the content of the control's header.
+
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.HeaderTemplate](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.headertemplate).
+
+## -xaml-syntax
+```xaml
+<PasswordBox>
+  <PasswordBox.HeaderTemplate>
+    singleDataTemplate
+  </PasswordBox.HeaderTemplate>
+</PasswordBox>
+- or -
+<PasswordBox HeaderTemplate="resourceReferenceToDataTemplate"/>
+```
+
+
+## -xaml-values
+<dl><dt>singleDataTemplate</dt><dd>singleDataTemplateA single DataTemplate object element. That DataTemplate would typically have multiple child elements that define the visual appearance of the data representation.</dd>
+<dt>resourceReferenceToDataTemplate</dt><dd>resourceReferenceToDataTemplateA resource reference to an existing DataTemplate from a resources collection. The resource reference must specify the desired DataTemplate by key through a {StaticResource} markup extension usage.</dd>
+</dl>
+## -property-value
+The template that specifies the visualization of the header object. The default is **null**.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[Header](passwordbox_header.md)

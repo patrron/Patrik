@@ -1,0 +1,24 @@
+---
+-api-id: T:Windows.UI.Composition.IAnimationObject
+-api-type: winrt interface
+ms.custom: RS5
+---
+
+<!-- Interface syntax.
+public interface IAnimationObject 
+-->
+
+# Windows.UI.Composition.IAnimationObject
+
+## -description
+
+Represents an object that has properties that can be referenced by an animation.
+
+Equivalent WinUI interface: [Microsoft.UI.Composition.IAnimationObject](/windows/winui/api/microsoft.ui.composition.ianimationobject).
+
+## -remarks
+
+## -see-also
+
+## -examples
+

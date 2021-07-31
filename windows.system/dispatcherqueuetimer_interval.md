@@ -1,0 +1,25 @@
+---
+-api-id: P:Windows.System.DispatcherQueueTimer.Interval
+-api-type: winrt property
+---
+
+<!-- Property syntax.
+public TimeSpan Interval { get;  set; }
+-->
+
+# Windows.System.DispatcherQueueTimer.Interval
+
+## -description
+Gets and sets the interval for the timer.
+
+Equivalent WinUI property: [Microsoft.System.DispatcherQueueTimer.Interval](/windows/winui/api/microsoft.system.dispatcherqueuetimer.interval).
+
+## -property-value
+The amount of time before the timer ticks.
+
+## -remarks
+If you change the **DispatcherQueueTimer.Interval** while the timer is running, the timer will restart with the new value.
+
+## -see-also
+
+## -examples

@@ -1,0 +1,25 @@
+---
+-api-id: P:Windows.UI.Xaml.Media.Animation.DragOverThemeAnimation.DirectionProperty
+-api-type: winrt property
+---
+
+<!-- Property syntax
+public Windows.UI.Xaml.DependencyProperty DirectionProperty { get; }
+-->
+
+# Windows.UI.Xaml.Media.Animation.DragOverThemeAnimation.DirectionProperty
+
+## -description
+Identifies the [Direction](dragoverthemeanimation_direction.md) dependency property.
+
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DragOverThemeAnimation.DirectionProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.dragoverthemeanimation.directionproperty).
+
+## -property-value
+The identifier for the [Direction](dragoverthemeanimation_direction.md) dependency property.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[Animating drag-and-drop sequences](/previous-versions/windows/apps/jj649427(v=win.10)), [Guidelines and checklist for drag-and-drop animations](/windows/uwp/style/motion-dragdrop)
