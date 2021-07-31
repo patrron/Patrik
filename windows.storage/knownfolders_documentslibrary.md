@@ -1,0 +1,44 @@
+---
+-api-id: P:Windows.Storage.KnownFolders.DocumentsLibrary
+-api-type: winrt property
+---
+
+<!-- Property syntax
+public Windows.Storage.StorageFolder DocumentsLibrary { get; }
+-->
+
+# Windows.Storage.KnownFolders.DocumentsLibrary
+
+## -description
+Gets the Documents library. The Documents library is not intended for general use.
+
+## -property-value
+The Documents library.
+
+## -remarks
+> > [!IMPORTANT]
+> The Documents library is not intended for general use. For more info, see [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations).
+
+If your app has to create and update files that only your app uses, consider using the app's [LocalCache](applicationdata_localcachefolder.md) folder. For more information on which folders you should use for your app's data, see [ApplicationData](applicationdata.md) class.
+
+Alternatively, let the user select the file location by using a file picker. For more info, see [Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers).
+
+### Prerequisites
+
+To access the Documents library, do the following things.
+
++ In the app manifest, specify the **Documents Library** capability. This capability is not visible in Manifest Designer. To add the Documents Library capability, open the app manifest in code view and edit the XML directly.
++ In the app manifest, register at least one File Type Association declaration. This declaration explicitly indicates the file types (extensions) that your app wants to access in the Documents library. The app can only enumerate, create, or change files that have the file types declared in the app manifest. For more info, see [Handle file activation](https://docs.microsoft.com/windows/uwp/launch-resume/handle-file-activation).
+
+
+### Return value
+
+To work with the Documents library and its contents, call the methods and properties of the [StorageFolder](storagefolder.md) class. For general info about how to use files and folders, see [Enumerate and query files and folders](https://docs.microsoft.com/windows/uwp/files/quickstart-listing-files-and-folders).
+
+## -examples
+
+## -see-also
+
+
+## -capabilities
+documentsLibrary
