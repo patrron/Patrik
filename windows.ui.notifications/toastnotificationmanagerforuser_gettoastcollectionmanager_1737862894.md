@@ -1,0 +1,28 @@
+---
+-api-id: M:Windows.UI.Notifications.ToastNotificationManagerForUser.GetToastCollectionManager(System.String)
+-api-type: winrt method
+---
+
+<!-- Method syntax.
+public ToastCollectionManager ToastNotificationManagerForUser.GetToastCollectionManager(String appId)
+-->
+
+# Windows.UI.Notifications.ToastNotificationManagerForUser.GetToastCollectionManager
+
+## -description
+Creates a [ToastCollectionManager](toastcollectionmanager.md) that you can use to save, update, and clear notification groups for the specified app.
+
+## -parameters
+
+### -param appId
+The ID of the app whose notification groups you want to manipulate. 
+
+## -returns
+An object you can use to save, update, and clear notification groups. 
+
+## -remarks
+
+## -see-also
+
+## -examples
+

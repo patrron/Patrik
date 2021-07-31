@@ -1,0 +1,23 @@
+---
+-api-id: P:Windows.Media.SpeechRecognition.SpeechRecognitionResult.PhraseDuration
+-api-type: winrt property
+---
+
+<!-- Property syntax
+public Windows.Foundation.TimeSpan PhraseDuration { get; }
+-->
+
+# Windows.Media.SpeechRecognition.SpeechRecognitionResult.PhraseDuration
+
+## -description
+Gets the amount of time required for the utterance.
+
+## -property-value
+The duration of the utterance.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
