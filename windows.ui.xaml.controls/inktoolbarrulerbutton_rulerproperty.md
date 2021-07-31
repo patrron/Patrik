@@ -1,0 +1,24 @@
+---
+-api-id: P:Windows.UI.Xaml.Controls.InkToolbarRulerButton.RulerProperty
+-api-type: winrt property
+---
+
+<!-- Property syntax
+public Windows.UI.Xaml.DependencyProperty RulerProperty { get; }
+-->
+
+# Windows.UI.Xaml.Controls.InkToolbarRulerButton.RulerProperty
+
+## -description
+Identifies the [Ruler](inktoolbarrulerbutton_ruler.md) dependency property.
+
+## -property-value
+The identifier for the [Ruler](inktoolbarrulerbutton_ruler.md) dependency property.
+
+## -remarks
+Apps that target Windows Creators Update (SDK 15063) or later should use the [InkToolbarStencilButton](inktoolbarstencilbutton.md) object instead of this object. If your app also supports previous versions, see [Version adaptive apps: Use new APIs while maintaining compatibility with previous versions](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-apps) for more info.
+
+## -examples
+
+## -see-also
+[Pen and stylus interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions), [Add an InkToolbar to a Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/uwp/input-and-devices/ink-toolbar), [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough), [Ruler](inktoolbarrulerbutton_ruler.md), [Ink sample (JavaScript)](https://go.microsoft.com/fwlink/p/?LinkID=620308), [Get Started Tutorial: Support ink in your UWP app](https://aka.ms/appsample-ink), [Coloring book sample](https://aka.ms/cpubsample-coloringbook), [Family notes sample](https://aka.ms/cpubsample-familynotessample)

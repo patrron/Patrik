@@ -1,0 +1,20 @@
+---
+-api-id: E:Windows.Media.SpeechRecognition.SpeechRecognizer.StateChanged
+-api-type: winrt event
+---
+
+<!-- Event syntax
+public event Windows.Foundation.TypedEventHandler StateChanged<Windows.Media.SpeechRecognition.SpeechRecognizer,  Windows.Media.SpeechRecognition.SpeechRecognizerStateChangedEventArgs>
+-->
+
+# Windows.Media.SpeechRecognition.SpeechRecognizer.StateChanged
+
+## -description
+This event is raised when a change occurs to the [State](speechrecognizer_state.md) property during audio capture.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[SpeechRecognizerStateChangedEventArgs](speechrecognizerstatechangedeventargs.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
