@@ -1,0 +1,24 @@
+---
+-api-id: M:Windows.UI.Xaml.Controls.TextBox.Undo
+-api-type: winrt method
+ms.custom: RS5
+---
+
+<!-- Method syntax.
+public void TextBox.Undo()
+-->
+
+# Windows.UI.Xaml.Controls.TextBox.Undo
+
+## -description
+
+Undoes the first action in the undo buffer.
+
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TextBox.Undo](/windows/winui/api/microsoft.ui.xaml.controls.textbox.undo).
+
+## -remarks
+
+## -see-also
+
+## -examples
+
