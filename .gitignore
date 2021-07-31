@@ -1,0 +1,15 @@
+log/
+obj/
+_site/
+.optemp/
+_themes*/
+.vs/
+
+.openpublishing.buildcore.ps1
+
+*.sdf
+*.ipch
+.favorites.json
+
+mwgendiff.config
+
