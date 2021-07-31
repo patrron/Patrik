@@ -1,0 +1,26 @@
+---
+-api-id: P:Windows.ApplicationModel.Activation.ContactCallActivatedEventArgs.ServiceId
+-api-type: winrt property
+---
+
+<!-- Property syntax
+public string ServiceId { get; }
+-->
+
+# Windows.ApplicationModel.Activation.ContactCallActivatedEventArgs.ServiceId
+
+## -description
+Gets the identifier of the service used for the call.
+
+## -property-value
+The identifier of the service used for the call.
+
+## -remarks
+For PSTN calls, the ServiceId property is set to "telephone." For web-based services, the ServiceId property is set to the domain name of the service to be used for calling, for example “skype.com”. Your app will only receive call activations for ServiceIds that match the "ServiceId" elements that your app has registered in its manifest.
+
+For info about how to handle app activation through contact actions, see [Quickstart: Handling contact actions ](https://docs.microsoft.com/previous-versions/windows/apps/dn518236(v=win.10)) and [Quickstart: Handling contact actions ](https://docs.microsoft.com/previous-versions/windows/apps/dn518338(v=win.10)).
+
+## -examples
+
+## -see-also
+[Handling Contact Actions sample](https://go.microsoft.com/fwlink/p/?LinkID=320151)

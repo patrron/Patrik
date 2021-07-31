@@ -1,0 +1,31 @@
+---
+-api-id: P:Windows.Networking.BackgroundTransfer.BackgroundDownloader.FailureToastNotification
+-api-type: winrt property
+---
+
+<!-- Property syntax
+public Windows.UI.Notifications.ToastNotification FailureToastNotification { get;  set; }
+-->
+
+# Windows.Networking.BackgroundTransfer.BackgroundDownloader.FailureToastNotification
+
+## -description
+Gets or sets the [ToastNotification](../windows.ui.notifications/toastnotification.md) that defines the content, associated metadata, and events used in a toast notification to indicate failure of a download to the user.
+
+## -property-value
+The [ToastNotification](../windows.ui.notifications/toastnotification.md) used to indicate download failure.
+
+## -remarks
+An app that uses [Windows.Networking.BackgroundTransfer](windows_networking_backgroundtransfer.md) to communicate through a toast notification must declare that it is **Toast capable** in the app manifest file. The **Toast capable** setting is located under the **Notifications** section of **Application** tab. Set the **Toast capable** option to "Yes" so the app can receive toast notifications.
+
+If **Toast capable** is not enabled in the app manifest, then any toast settings in the [Windows.Networking.BackgroundTransfer](windows_networking_backgroundtransfer.md) namespace will be silently ignored and no toasts notifications will be received by the app.
+
+> [!NOTE]
+> A user can manually disable or enable toast notifications for your app at any time.
+
+For more information on toast notifications, see [Sending toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868266(v=win.10)) and [How to opt in for toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868218(v=win.10)).
+
+## -examples
+
+## -see-also
+[How to opt in for toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868218(v=win.10)), [ToastNotification](../windows.ui.notifications/toastnotification.md)
