@@ -1,0 +1,23 @@
+---
+-api-id: P:Windows.Networking.PushNotifications.RawNotification.Content
+-api-type: winrt property
+---
+
+<!-- Property syntax
+public string Content { get; }
+-->
+
+# Windows.Networking.PushNotifications.RawNotification.Content
+
+## -description
+Gets the content of the raw notification as a string. This string specifies a background task associated with the app.
+
+## -property-value
+A string that contains the app-defined notification content, as set by the app server.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[Raw notifications sample](https://go.microsoft.com/fwlink/p/?linkid=241553), [Raw notification overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-and-notifications-raw-notification-overview), [Guidelines and checklist for raw notifications](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-and-notifications-raw-notification-overview), [Quickstart: Creating and registering a raw notification background task](https://docs.microsoft.com/previous-versions/windows/apps/jj676800(v=win.10)), [Quickstart: Intercepting push notifications for running apps](https://docs.microsoft.com/previous-versions/windows/apps/jj709908(v=win.10))
